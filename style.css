@@ -46,7 +46,9 @@ nav ul{
     text-align: center;
     background-image: url(assets/hero-bg.png);
     max-width: 1600px;
-    height: 674px;
+    height: 674px; 
+    min-height: 674px;
+    height: auto;
 }
 .single-button1{
     color: #469165;
@@ -81,9 +83,9 @@ nav ul{
     justify-content: center;
 }
 .single-button2{
-background-color:rgba(59, 59, 135, 0.861);
+background: none;
 color: #FFFFFF;
-border: none;
+border: 1px solid whitesmoke;
 }
 .card-section{
     text-align: center;
@@ -102,4 +104,9 @@ border: none;
 .card-box img{
     width: 60px;
     height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
 }
+/* .image{
+    background-color: red;
+} */
