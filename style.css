@@ -1,0 +1,105 @@
+/* shared styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal;
+ */
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+     /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:  16px;
+    padding-bottom: 16px;
+}
+/* .nav-container{
+    display: flex;
+    justify-content: space-between;
+} */
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.button{
+    color: #FFFFFF;
+    background-color: #469165;
+    padding: 12.5px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+/* main styles */
+.hero-container{
+    text-align: center;
+    background-image: url(assets/hero-bg.png);
+    max-width: 1600px;
+    height: 674px;
+}
+.single-button1{
+    color: #469165;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    margin-top: 115.5px;
+    margin-bottom: 16px;
+}
+.hero-container div h1{
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.hero-container div h1 span{
+    color: #469165;
+    margin-bottom: 16px;
+}
+.header-section{
+    color: #FFFFFF;
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 32px;
+}
+.button-holder{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.single-button2{
+background-color:rgba(59, 59, 135, 0.861);
+color: #FFFFFF;
+border: none;
+}
+.card-section{
+    text-align: center;
+    margin: 0 auto;
+}
+.div1 h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 116px;
+}
+.card-container{
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+}
+.card-box img{
+    width: 60px;
+    height: 60px;
+}
