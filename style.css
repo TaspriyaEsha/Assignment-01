@@ -41,6 +41,7 @@ nav ul{
     border: none;
     border-radius: 4px;
      /* margin-bottom: 16px; */
+    cursor: pointer;
 }
 /* main styles */
 .hero-container{
@@ -59,6 +60,7 @@ nav ul{
     padding: 8px 12px;
     margin-top: 115.5px;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 .hero-container div h1{
     font-size: 72px;
@@ -89,6 +91,7 @@ color: #FFFFFF;
 border: 1px solid whitesmoke;
 padding: 16.5px;
 border-radius: 4px;
+cursor: zoom-out;
 }
 .card-section{
     text-align: center;
