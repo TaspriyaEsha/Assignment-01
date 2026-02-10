@@ -40,6 +40,7 @@ nav ul{
     font-size: 16px;
     border: none;
     border-radius: 4px;
+     /* margin-bottom: 16px; */
 }
 /* main styles */
 .hero-container{
@@ -86,6 +87,8 @@ nav ul{
 background: none;
 color: #FFFFFF;
 border: 1px solid whitesmoke;
+padding: 16.5px;
+border-radius: 4px;
 }
 .card-section{
     text-align: center;
@@ -95,6 +98,15 @@ border: 1px solid whitesmoke;
     font-size: 48px;
     font-weight: 700;
     margin-top: 116px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.div1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
 }
 .card-container{
     display: flex;
@@ -106,7 +118,132 @@ border: 1px solid whitesmoke;
     height: 60px;
     background-color: #F95555;
     border-radius: 50%;
+    padding: 15.5px 16.5px;  
+    /* border: 1px solid #469165 ; */
+    /* background-size: 60px 60px; */
+}
+.card-box h6{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.card-box p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-weight: 400;
 }
 /* .image{
     background-color: red;
 } */
+.card-container .card-box{
+    max-width: 322px;
+    padding: 70px 24px;
+    /* border: 1px solid black; */
+    box-shadow: 0 6px 50px 0 #0000000F;
+ }
+.brain-section{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 120px;
+ }
+.brain-section .brain-text{
+    margin-top: 102px;
+ }
+.brain-section .brain-text h6{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+ }
+.brain-section .brain-text h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.brain-section .brain-text p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.brain-section .brain-text img{
+    width: 16.25px;
+    height: 16.25px;
+    /* margin-bottom: 16px; */
+}
+.brain-section .brain-text span{
+    color: #001931;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px; 
+}
+.think-section{
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* padding: 2px 120px 120px 120px;  */
+    padding-left: 110px; 
+    margin-bottom: 120px;
+}
+.think-clearly{
+    text-align: center;
+    background-color: #F7F6F2;
+    /* max-width: 1360px; */
+    width: 91%;
+    padding: 80px 40px;
+    /* /* max-width: 1140px; */
+} 
+.think-section .think-clearly h2{
+    color: #001931;
+    font-size: 40px;
+    font-weight: 700;
+    /* margin-bottom: 16px; */
+}
+.think-section .think-clearly p{
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+footer{
+    background-color: #001931;
+    /* padding-left: 120px; */
+    padding: 120px 120px 30px 120px;
+    color: #FFFFFF;
+}
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+footer .footer-container .footer-pic{
+    height: 60px;
+    width: 139px;
+}
+footer .footer-container .footer-social p{
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+footer .footer-container .footer-social .icon{
+    gap: 16px;
+    display: flex;
+}
+footer .footer-container .footer-social .icon #icon{
+    background-color: #FFFFFF;
+    color: #001931;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+footer p{
+    line-height: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
